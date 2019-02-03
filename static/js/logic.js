@@ -33,7 +33,7 @@ function createFeatures(earthquakeData) {
       
       var geojsonMarkerOptions = {
         radius: 4*feature.properties.mag,
-        fillColor: color,
+        fillColor: "orange",
         color: "black",
         weight: 1,
         opacity: 1,
